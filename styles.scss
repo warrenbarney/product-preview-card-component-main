@@ -141,15 +141,17 @@ body {
     padding: 0 1em;
     font-size: 14px;
 
-    .block-6:hover {
-        background-color: hsl(158, 36%, 12%);
-    }
 
     .box-4 {
         padding-left: .75em;
     }
 
 }
+
+.block-6:hover {
+    background-color: $color-3;
+}
+
 
 @media (min-width: 1020px) {
     .container {
